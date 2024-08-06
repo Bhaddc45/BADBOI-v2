@@ -45,8 +45,8 @@ heroku/nodejs
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
-*Add your Creds.json to Classic file
-* Create a new app at [Heroku](heroku.com)
+*Add your Creds.json to Session file
+* Create a new app at [Heroku](https://id.heroku.com/login)
 * Add Build packs
 * Connect your heroku with your github
 * Locate BADBOI-v2-BUG
