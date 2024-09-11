@@ -42,9 +42,14 @@ BADBOI-v2 𝘽𝙤𝙩 Multi Device is a whatsapp bot created by <a href="https:
 ## Heroku Buildpack
 ```bash
 heroku/nodejs
+```
+```
 https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+```
+```
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
+
 *Add your Creds.json to Session file
 * Create a new app at [Heroku](https://id.heroku.com/login)
 * Add Build packs
@@ -64,6 +69,44 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ★ Now Deploy
     <br>
 <a href='https://dashboard.render.com/select-repo?type=web' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+</br>
+
+#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [BADBOI-v2](https://github.com/BADBOI-v1/BADBOI-v2) ON ANY TERMINAL
+```
+sudo apt -y update && sudo apt -y upgrade
+```
+```
+sudo apt -y install git ffmpeg curl
+```
+```
+curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
+```
+```
+sudo -E bash nodesource_setup.sh
+```
+```
+sudo apt-get install -y nodejs
+```
+```
+sudo npm install -g yarn
+```
+```
+sudo yarn global add pm2
+```
+```
+git clone https://github.com/type-your-username-here/BADBOI-v2
+```
+```
+cd BADBOI-v2
+```
+```
+yarn install
+```
+```
+npm start
+```
+ 
 
 
 </br>
@@ -145,6 +188,13 @@ npm i -g forever && forever index.js && forever save && forever logs
 ```
 > npm start
 ```
+
+
+-------
+## ```YOUTUBE CHANNEL FOR TUTORIALS```
+
+ - [ Click ](https://youtube.com/@BADBOI-k2i?si=1_Ae2h9Kl9IbAo7E)
+
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ## ```Connect With Me```<img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80"></h1> 
